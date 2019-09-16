@@ -1,7 +1,4 @@
-package actors
-
-import actors.ActorCapabilities.Person.LiveThelife
-import akka.actor.{Actor, ActorRef, ActorSystem, Props}
+package parta2actors;
 
 object ActorCapabilities extends App {
 

@@ -1,10 +1,4 @@
-package actors
-
-import actors.ActorCapabilities.{Bank, system}
-import actors.ChangingActorBehavior.Counter.{Decrement, Increment, Print, start}
-import actors.ChangingActorBehavior.FussyKid.{KidAccept, KidReject}
-import actors.ChangingActorBehavior.Mom.MomStart
-import akka.actor.{Actor, ActorContext, ActorRef, ActorSystem, Props}
+package parta2actors;
 
 object ChangingActorBehavior extends App {
 
